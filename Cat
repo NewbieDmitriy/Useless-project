@@ -1,0 +1,19 @@
+public class Cat {
+
+    String name;
+    int age;
+    String color;
+    public void Говорит() {
+        System.out.println("Мяу!");
+    }
+    public static void main(String[] args) {
+
+        Cat german = new Cat();
+        german.age = 10;
+        german.name = "Герман";
+        german.color = "пушистый";
+
+        System.out.println("Наш котик " + german.name + ", его возраст " + german.age + ", цвет " + german.color);
+        german.Говорит();
+    }
+}
