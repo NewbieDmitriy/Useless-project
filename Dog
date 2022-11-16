@@ -1,0 +1,19 @@
+public class Dog {
+
+    String name;
+    int age;
+    String color;
+    public void Говорит() {
+        System.out.println("Гав!");
+    }
+    public static void main(String[] args) {
+
+        Dog boss = new Dog();
+        boss.age = 8;
+        boss.name = "Босс";
+        boss.color = "заниженный";
+
+        System.out.println("Наш пёс " + boss.name + ", его возраст " + boss.age + ", цвет " + boss.color);
+        boss.Говорит();
+    }
+}
